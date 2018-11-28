@@ -8,5 +8,4 @@
    service   65866  65863  65866  0    1 14:42 ?        00:00:01 nginx: worker process
    service   65867  65863  65867  0    1 14:42 ?        00:00:02 nginx: worker process
 
-说明： NLWP：number of threads 
-      LWP： thread ID 
+说明： NLWP：number of threads ; LWP： thread ID 
