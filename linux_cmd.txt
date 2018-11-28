@@ -1,9 +1,12 @@
 1. linux查询特定进程下有多少个线程：
-  cat /proc/111880/status | grep Threads           可见Nginx工作进程只有1个线程，其中3776是Nginx工作进程的PID
+   cat /proc/111880/status | grep Threads           可见Nginx工作进程只有1个线程，其中3776是Nginx工作进程的PID
 2. linux查询特定进程的线程号:
-[root@HEC-CF-Openresty-2 openresty]# ps -eLf | grep nginx
-UID         PID   PPID    LWP  C NLWP STIME TTY          TIME CMD
-service   65864  65863  65864  0    1 14:42 ?        00:00:01 nginx: worker process
-service   65865  65863  65865  0    1 14:42 ?        00:00:02 nginx: worker process
-service   65866  65863  65866  0    1 14:42 ?        00:00:01 nginx: worker process
-service   65867  65863  65867  0    1 14:42 ?        00:00:02 nginx: worker process
+   [root@HEC-CF-Openresty-2 openresty]# ps -eLf | grep nginx
+   UID         PID   PPID    LWP  C NLWP STIME TTY          TIME CMD
+   service   65864  65863  65864  0    1 14:42 ?        00:00:01 nginx: worker process
+   service   65865  65863  65865  0    1 14:42 ?        00:00:02 nginx: worker process
+   service   65866  65863  65866  0    1 14:42 ?        00:00:01 nginx: worker process
+   service   65867  65863  65867  0    1 14:42 ?        00:00:02 nginx: worker process
+
+说明： NLWP：number of threads 
+      LWP： thread ID 
