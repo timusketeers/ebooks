@@ -8,4 +8,12 @@ IT经典电子书：
          《TCP/IP协议卷》                             经典                        只读了第一卷，剩下的两卷没有读。
    4.操作系统：
           《linux内核源代码情景分析》                                              未读
+   5.分布式系统:
+       1>. raft协议算法: 
+              《In Search of an Understandable Consensus Algorithm(Extended Version)》    raft英文论文        已读
+              https://github.com/maemual/raft-zh_cn
+              http://thesecretlivesofdata.com/raft/
+              https://raft.github.io/
+   6.
+              
            
