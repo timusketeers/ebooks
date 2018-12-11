@@ -16,6 +16,7 @@ IT经典电子书：
               https://raft.github.io/
    6.VIM构建C IDE工具:
        《VIM使用技巧》                                                    已读完
-       vimscript:    http://learnvimscriptthehardway.onefloweroneworld.com/
+       vimscript:        http://learnvimscriptthehardway.onefloweroneworld.com/
+       vim构建C语言IDE:   https://github.com/zllovezj/use_vim_as_ide
               
            
