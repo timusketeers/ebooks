@@ -1,12 +1,42 @@
 vim集成YCM插件过程:
 1. 源码编译clang/llvm:
-  下载clang 源码和llvm源码，然后将llvm包解压重命名为llvm，cfe的tar包解压重命名为clang，然后将clang目录移动到llvm/tools/目录下。完成之后的目录如下：
-  ./------当前目录
-   ....llvm
-     ...
-   ........tools
-   ............clang
-   ....build
+   1).下载llvm源码:
+   [root@linux]# wget http://llvm.org/releases/3.6.0/llvm-3.6.0.src.tar.xz
+   [root@linux]# tar xf llvm-3.6.0.src.tar.xz
+   [root@linux]# mv llvm-3.6.0.src llvm
+   
+   2).下载clang的源代码
+   [root@linux]# cd llvm/tools
+   [root@linux]# wget http://llvm.org/releases/3.6.0/cfe-3.6.0.src.tar.xz
+   [root@linux]# tar xf cfe-3.6.0.src.tar.xz
+   [root@linux]# mv cfe-3.6.0.src clang
+   [root@linux]# cd ../..
+   
+   3).下载clang-tools-extra的源代码
+   [root@linux]# cd llvm/tools/clang/tools
+   [root@linux]# wget http://llvm.org/releases/3.6.0/clang-tools-extra-3.6.0.src.tar.xz
+   [root@linux]# tar xf clang-tools-extra-3.6.0.src.tar.xz
+   [root@linux]# mv clang-tools-extra-3.6.0.src  extra
+   [root@linux]# cd ../../../..
+   
+   4).下载compiler-rt的源代码
+   [root@linux]# cd llvm/projects
+   [root@linux]# wget http://llvm.org/releases/3.6.0/compiler-rt-3.6.0.src.tar.xz
+   [root@linux]# tar xf compiler-rt-3.6.0.src.tar.xz
+   [root@linux]# mv compiler-rt-3.6.0.src compiler-rt
+   [root@linux]# cd ../..
+
+
+  完成之后的目录如下所示：
+  ./
+   |——llvm                      (llvm-3.6.0.src.tar.xz)
+   |    |——tools
+   |    |    |——clang           (cfe-3.6.0.src.tar.xz)
+   |    |         |——tools
+   |    |             |——extra  (compiler-rt-3.6.0.src.tar.xz)
+   |    |——projects
+   |         |——compiler-rt     (compiler-rt-3.6.0.src.tar.xz)
+   |——build
 
 作者：知乎用户
 链接：https://www.zhihu.com/question/60299862/answer/188657611
