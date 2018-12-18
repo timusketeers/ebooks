@@ -1,0 +1,7 @@
+vim集成YCM插件过程:
+1. cmake源码编译:
+      $ tar -zxvf cmake-3.2.3.tar.gz
+      $ cd cmake-3.2.3
+      $ ./bootstrap
+      $ make
+      $ make install
