@@ -53,7 +53,7 @@ vim集成YCM插件过程:
 
    5).编译安装clang/llvm  
    [root@linux]# cd build
-   [root@linux]# cmake ../llvm -DLLVM_TARGETS_TO_BUILD=X86 -DCMAKE_BUILD_TYPE=Debug (或者Release)
+   [root@linux]# cmake ../llvm -DLLVM_TARGETS_TO_BUILD=X86 -DCMAKE_BUILD_TYPE=Debug (或者Release)   注: cmake请参考"2.cmake源码编译"章节
    [root@linux]# make -j4                                                           (数字为你的CPU的核数)进行编译
    
    进入build/bin下，观察可以发现有很多的可执行文件，包括clang, clang++, clang-4.0等。
