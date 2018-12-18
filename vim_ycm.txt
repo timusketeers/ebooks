@@ -1,5 +1,18 @@
 vim集成YCM插件过程:
-1. cmake源码编译:
+1. 源码编译clang/llvm:
+  下载clang 源码和llvm源码，然后将llvm包解压重命名为llvm，cfe的tar包解压重命名为clang，然后将clang目录移动到llvm/tools/目录下。完成之后的目录如下：
+  ./------当前目录
+   ....llvm
+     ...
+   ........tools
+   ............clang
+   ....build
+
+作者：知乎用户
+链接：https://www.zhihu.com/question/60299862/answer/188657611
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+2. cmake源码编译:
       $ tar -zxvf cmake-3.2.3.tar.gz
       $ cd cmake-3.2.3
       $ ./bootstrap
