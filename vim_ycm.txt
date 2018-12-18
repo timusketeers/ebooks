@@ -1,11 +1,14 @@
 vim集成YCM插件过程:
 1. 源码编译clang/llvm:
      首先，简单介绍下clang和llvm的关系。
+     
      LLVM是构架编译器(compiler)的框架系统，以C++编写而成，用于优化以任意程序语言编写的程序的编译时间(compile-time)、链接时间(link-time)、
    运行时间(run-time)以及空闲时间(idle-time)，对开发者保持开放，并兼容已有脚本。我们可以认为LLVM是一个完整的编译器架构，也可以认为它是一个
    用于开发编译器、解释器相关的库。
+   
      在理解LLVM时，我们可以认为它包括了一个狭义的LLVM和一个广义的LLVM。广义的LLVM其实就是指整个LLVM编译器架构，包括了前端、后端、优化器、
    众多的库函数以及很多的模块；而狭义的LLVM其实就是聚焦于编译器后端功能（代码生成、代码优化、JIT等）的一系列模块和库。
+     
      接下来，简要的介绍一下Clang。Clang是一个C++编写、基于LLVM、发布于LLVM BSD许可证下的C/C++/Objective-C/Objective-C++编译器。
    
    1).下载llvm源码:
