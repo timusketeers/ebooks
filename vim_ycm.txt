@@ -25,8 +25,10 @@ vim集成YCM插件过程:
    [root@linux]# tar xf compiler-rt-3.6.0.src.tar.xz
    [root@linux]# mv compiler-rt-3.6.0.src compiler-rt
    [root@linux]# cd ../..
-
-
+   
+   在llvm源码目录同级目录中创建一个目录build目录
+   [root@linux]# mkdir build
+   
   完成之后的目录如下所示：
   ./
    |——llvm                      (llvm-3.6.0.src.tar.xz)
@@ -38,6 +40,16 @@ vim集成YCM插件过程:
    |         |——compiler-rt     (compiler-rt-3.6.0.src.tar.xz)
    |——build
 
+   5).编译安装clang/llvm
+   [root@linux]# cd build
+   [root@linux]# cmake ../llvm -DLLVM_TARGETS_TO_BUILD=X86 -DCMAKE_BUILD_TYPE=Debug (或者Release)
+   [root@linux]# make -j4                                                           (数字为你的CPU的核数)进行编译
+   
+   进入build/bin下，观察可以发现有很多的可执行文件，包括clang, clang++, clang-4.0等。
+   然后在build目录下执行sudo make install进行安装了，成功安装之后就可以直接在终端输入clang hello.c -o hello了
+   
+   [root@linux]# make install         （安装）
+   
 2. cmake源码编译:
       $ tar -zxvf cmake-3.2.3.tar.gz
       $ cd cmake-3.2.3
