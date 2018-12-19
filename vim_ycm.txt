@@ -82,3 +82,20 @@ vim集成YCM插件过程:
    当然，你也可以离线下载好YouCompleteMe插件（注意: 手动离线下载的YouCompleteMe zip包并不完整，因为不会递归下载其中引用的其他github项目，这需要我们自己手动下载，并将其放置在相应的目录中），并将其放置在~/.vim/bundle文件夹下，并设置
      set runtimepath+=~/.vim/bundle/YouCompleteMe
    保证YouCompleteMe插件正常加载。
+   
+第四步. 编译YouCompleteMe，并生成ycm_core
+  准备:
+     编译依赖python.rpm, python-lib.rpm, python-dev.rpm, boost.rpm, boost-dev.rpm
+  开始编译:
+  [root@linux]# cmake -G "Unix Makefiles" -DUSE_SYSTEM_BOOST=ON \
+                -DEXTERNAL_LIBCLANG_PATH=/usr/local/lib/libclang.so . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+  [root@linux]# cmake --build . --target ycm_core --config Release 
+  [root@linux]# cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py  ~/.ycm_extra_conf.py
+  
+最后一步, 在你的.vimrc中加入这个.ycm_extra_conf.py文件路径
+   let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
+   
+至此，大功告成！！打开你的vim试试效果吧。
+
+   
+   
