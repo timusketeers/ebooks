@@ -73,3 +73,12 @@ vim集成YCM插件过程:
       $ ./bootstrap
       $ make
       $ make install
+
+第三步.利用Vundle插件管理器下载YouCompleteMe插件:
+     Vundle是个vim插件管理器。在装好Vundle后，在你的.vimrc中里面添加
+         Plugin 'Valloric/YouCompleteMe'
+     之后退出.vimrc, 在打开vim运行：
+         PluginInstall 
+   当然，你也可以离线下载好YouCompleteMe插件（注意: 手动离线下载的YouCompleteMe zip包并不完整，因为不会递归下载其中引用的其他github项目，这需要我们自己手动下载，并将其放置在相应的目录中），并将其放置在~/.vim/bundle文件夹下，并设置
+     set runtimepath+=~/.vim/bundle/YouCompleteMe
+   保证YouCompleteMe插件正常加载。
