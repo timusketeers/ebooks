@@ -1,5 +1,11 @@
 vim集成YCM插件过程:
-1. 源码编译clang/llvm:
+
+第一步.安装前准备
+  依赖: vim7.3.584以上版本，且vim开启支持python. 查看你的vim是否支持python，运行命令：vim --version。如果出现+python，则表示支持。如果是-python，抱歉，可能你得从源码编译安装了。
+
+
+第二步. 源码编译安装clang/llvm(ycm支持c/c++语义补全):
+1.编译安装clang/llvm:
      首先，简单介绍下clang和llvm的关系。
      
      LLVM是构架编译器(compiler)的框架系统，以C++编写而成，用于优化以任意程序语言编写的程序的编译时间(compile-time)、链接时间(link-time)、
