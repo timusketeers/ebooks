@@ -14,6 +14,8 @@ IT经典电子书：
               https://github.com/maemual/raft-zh_cn
               http://thesecretlivesofdata.com/raft/
               https://raft.github.io/
+              《CONSENSUS BRIDGING THEORY AND PRACTICE》    Raft作者论文
+              
    6.VIM构建C IDE工具:
        《VIM使用技巧》                                                    已读完
        vimscript:        http://learnvimscriptthehardway.onefloweroneworld.com/
