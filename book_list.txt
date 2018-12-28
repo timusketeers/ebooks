@@ -16,6 +16,8 @@ IT经典电子书：
               https://raft.github.io/
               《CONSENSUS BRIDGING THEORY AND PRACTICE》    Raft作者论文
               
+              https://www.youtube.com/watch?v=YbZ3zDzDnrw&feature=youtu.be   raft视频   已看
+              
    6.VIM构建C IDE工具:
        《VIM使用技巧》                                                    已读完
        vimscript:        http://learnvimscriptthehardway.onefloweroneworld.com/
