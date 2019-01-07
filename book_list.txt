@@ -23,4 +23,6 @@ IT经典电子书：
        vimscript:        http://learnvimscriptthehardway.onefloweroneworld.com/
        vim构建C语言IDE:   https://github.com/zllovezj/use_vim_as_ide
               
+   7. JVM相关:
+         JSR133中文版（jvm内存模型）         ---已读，经典
            
