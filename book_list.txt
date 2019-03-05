@@ -29,4 +29,4 @@ IT经典电子书：
    8.  SSRR翻墙软件工作原理:
        https://fanqiangdang.com/forum.php?mod=viewthread&tid=29&page=1
        http://vc2tea.com/whats-shadowsocks/
-       ssh隧道工作原理: http://blog.sina.cn/dpool/blog/s/blog_6406a7740102wedc.html
+       如何用ssh隧道绕过防火墙: http://blog.sina.cn/dpool/blog/s/blog_6406a7740102wedc.html
