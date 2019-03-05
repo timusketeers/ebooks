@@ -26,3 +26,5 @@ IT经典电子书：
    7. JVM相关:
          JSR133中文版（jvm内存模型）         ---已读，经典
            
+   8.  SSRR翻墙软件工作原理:
+       http://vc2tea.com/whats-shadowsocks/
