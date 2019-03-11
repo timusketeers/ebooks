@@ -33,3 +33,4 @@ IT经典电子书：
    
    9. gdb调测:
         https://www.cnblogs.com/skyofbitbit/p/3682127.html
+   10.记事本软件: onenote
