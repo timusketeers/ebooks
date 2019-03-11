@@ -30,3 +30,6 @@ IT经典电子书：
        https://fanqiangdang.com/forum.php?mod=viewthread&tid=29&page=1
        http://vc2tea.com/whats-shadowsocks/
        如何用ssh隧道绕过防火墙: http://blog.sina.cn/dpool/blog/s/blog_6406a7740102wedc.html
+   
+   9. gdb调测:
+        https://www.cnblogs.com/skyofbitbit/p/3682127.html
