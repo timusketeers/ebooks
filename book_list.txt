@@ -29,6 +29,7 @@ IT经典电子书：
    8.  SSRR翻墙软件工作原理:
        https://github.com/shadowsocksrr/shadowsocksr-android/releases
        https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+       https://free-ss.site/   免费ssrr账号
        https://fanqiangdang.com/forum.php?mod=viewthread&tid=29&page=1
        http://vc2tea.com/whats-shadowsocks/
        如何用ssh隧道绕过防火墙: http://blog.sina.cn/dpool/blog/s/blog_6406a7740102wedc.html
