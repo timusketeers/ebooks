@@ -43,4 +43,4 @@ IT经典电子书：
          《 c 陷阱与缺陷 》
          《 c 和指针 》
    12. 笔记软件：
-         onenote和gitbook  github pages
+         onenote和gitbook
