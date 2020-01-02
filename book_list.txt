@@ -36,7 +36,7 @@ IT经典电子书：
    
    9. gdb调测:
         https://www.cnblogs.com/skyofbitbit/p/3682127.html
-   10.记事本软件: onenote
+   10.记事本软件: onenote 
    
    11. c/c++相关书籍:
          《 c prime plus 》
@@ -51,3 +51,9 @@ IT经典电子书：
   14.<<算法导论>>:
   
       动态规划经典: https://blog.csdn.net/u013309870/article/details/75193592
+
+  15.javascript angularjs全栈：
+   
+       阮一峰
+       
+       ES6: http://pan.baidu.com/s/1i5zxS1J  
