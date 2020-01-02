@@ -57,3 +57,5 @@ IT经典电子书：
        阮一峰
        
        ES6: http://pan.baidu.com/s/1i5zxS1J  
+       
+       那些年读过的前端书籍资源分享（超赞！）: https://github.com/ZhengMaster2020/FEBooks
