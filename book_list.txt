@@ -62,4 +62,6 @@ IT经典电子书：
        
        https://study.163.com/course/introduction/1004329005.htm?from=study
        
-  16. java高阶:  https://www.bilibili.com/video/av68678454/?spm_id_from=333.788.videocard.2   (视频教程，阿里P8)
+  16. java架构师:  https://www.bilibili.com/video/av68678454/?spm_id_from=333.788.videocard.2   (视频教程，阿里P8)
+  
+  https://www.bilibili.com/video/av62954343/?spm_id_from=333.788.videocard.1
