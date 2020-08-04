@@ -68,3 +68,6 @@ IT经典电子书：
   
   17.uml,流程图绘图工具: https://www.gliffy.com/
      drawIO 流程绘制设计软件 https://app.diagrams.net/
+  
+  18. java websocket
+          https://www.cnblogs.com/duanxz/p/5041110.html  这篇文章写的不错。 可以在哔哩哔哩上结合尚学堂的websocket视频一起学习。tomcat7及以上版本的包中examples文件夹下有websocket的学习示例代码。
