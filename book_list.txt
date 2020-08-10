@@ -74,3 +74,5 @@ IT经典电子书：
           
   19. javasist: 供了修改类定义的方法（添加字段，添加构造函数、添加方法），同时也可以对方法体的语句进行检测
     https://www.jianshu.com/p/b9b3ff0e1bf8
+
+  20.java单元测试和mock框架: junit, mockito mock测试框架
